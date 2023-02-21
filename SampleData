@@ -1,0 +1,21 @@
+INSERT INTO `category` (CategoryName) VALUES ("Rock");
+INSERT INTO `category` (CategoryName) VALUES ("Pop");
+INSERT INTO `category` (CategoryName) VALUES ("Hip-Hop/Rap");
+INSERT INTO `category` (CategoryName) VALUES ("Country");
+INSERT INTO `category` (CategoryName) VALUES ("R&B");
+INSERT INTO `category` (CategoryName) VALUES ("Funk");
+INSERT INTO `category` (CategoryName) VALUES ("Jazz");
+INSERT INTO `category` (CategoryName) VALUES ("Heavy Metal");
+INSERT INTO `category` (CategoryName) VALUES ("Electropop");
+INSERT INTO `category` (CategoryName) VALUES ("Soul");
+
+
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("The Weeknd", "Blinding Lights", "After Hours", 201, 9);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("Chubby Checker", "The Twist", "Twist with Chubby Checker", 154, 1);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("Santana Featuring Rob Thomas", "Smooth", "Supernatural", 235, 1);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("Mark Ronson Featuring Bruno Mars", "Uptown Funk!", "Uptown Special", 270, 6);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("LeAnn Rimes", "How Do I Live", "Commitment", 265, 2);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("LMFAO Featuring Lauren Bennett & GoonRock", "Party Rock Anthem", "Sorry for Party Rocking", 232, 9);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("The Black Eyed Peas", "I Gotta Feeling", "The E.N.D.", 245, 2);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("Los Del Rio", "Macarena", "Fiesta Macarena", 252, 2);
+INSERT INTO `song` (Artist, SongName, AlbumTitle, SongLength, CategoryId) VALUES ("Ed Sheeran", "Shape Of You", "/", 234, 2);
